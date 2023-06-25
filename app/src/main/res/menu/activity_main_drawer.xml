@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Tüm Çekilişler" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Yeni Başlayanlar" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Bedava Katılım" />
+        <item
+            android:id="@+id/carFragment"
+            android:title="Araba Kazan" />
+        <item
+            android:id="@+id/phoneTabletFragment"
+            android:title="Telefon Tablet Kazan" />
+        <item
+            android:id="@+id/holidayFragment"
+            android:title="Tatil Kazan" />
+        <item
+            android:id="@+id/followFragment"
+            android:title="Takip Edilenler" />
+    </group>
+</menu>
